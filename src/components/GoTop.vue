@@ -46,6 +46,8 @@ export default {
         cursor: pointer;
         display: none;
 
+        @media (max-width: 767px) { display: none !important; }
+
         span{
             font-size: 80px;
             font-weight: bold;
